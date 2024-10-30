@@ -74,7 +74,6 @@ In each file that uses these API keys, add the following lines at the top (or re
 
 1. **GROQ API Key**:
    ```python
-   import os
    os.environ["GROQ_API_KEY"] = "your_groq_api_key"
    ```
 
