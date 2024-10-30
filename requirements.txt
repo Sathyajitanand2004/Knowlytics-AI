@@ -1,0 +1,13 @@
+streamlit
+matplotlib
+PyPDF2
+langchain
+langchain-core
+langchain-schema
+langchain-groq
+langchain-google-genai
+langchain-community
+chroma
+chromadb
+groq
+google-generative-ai
