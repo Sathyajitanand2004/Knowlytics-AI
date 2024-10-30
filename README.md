@@ -1,5 +1,3 @@
----
-
 # Knowlytics AI
 
 Knowlytics AI is a personalized, AI-powered tool designed to generate multiple-choice questions (MCQs) based on any topic or uploaded document. With its Retrieval-Augmented Generation (RAG) capability, Knowlytics AI allows users to assess their knowledge through dynamic quizzes and receive targeted insights for improvement.
@@ -88,9 +86,10 @@ In each file that uses these API keys, add the following lines at the top (or re
 Replace `"your_groq_api_key"` and `"your_google_api_key"` with your actual API keys in every file that includes a reference to the `groq` and `google-generative-ai` modules.
 
 Files to update:
-- `mcq_generator_with_RAG_llm.py`
+- `mcq_generator_with_RAG.py`
+- `mcq_generator.py`
 - `mcq_evaluator.py`
-- Any other custom file using **GROQ** or **Google Generative AI** services.
+
 
 ---
 
@@ -101,7 +100,7 @@ Files to update:
    Once everything is set up, run the application using the following command:
 
    ```bash
-   streamlit run exam.py
+   python -m streamlit run Knowlytics_AI.py
    ```
 
    This will launch the **Knowlytics AI** web application in your browser.
