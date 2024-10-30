@@ -68,26 +68,26 @@ To set up and run the **Knowlytics AI** application locally, follow the steps be
 
 4. **Configure API Keys**:
 
-To use the full functionality of **Knowlytics AI**, set your **GROQ** and **Google Generative AI** API keys in each relevant Python file.
-
-In each file that uses these API keys, add the following lines at the top (or replace existing key settings):
-
-1. **GROQ API Key**:
-   ```python
-   os.environ["GROQ_API_KEY"] = "your_groq_api_key"
-   ```
-
-2. **Google Generative AI API Key**:
-   ```python
-   os.environ["GOOGLE_API_KEY"] = "your_google_api_key"
-   ```
-
-Replace `"your_groq_api_key"` and `"your_google_api_key"` with your actual API keys in every file that includes a reference to the `groq` and `google-generative-ai` modules.
-
-Files to update:
-- `mcq_generator_with_RAG.py`
-- `mcq_generator.py`
-- `mcq_evaluator.py`
+   To use the full functionality of **Knowlytics AI**, set your **GROQ** and **Google Generative AI** API keys in each relevant Python file.
+   
+   In each file that uses these API keys, add the following lines at the top (or replace existing key settings):
+   
+   1. **GROQ API Key**:
+      ```python
+      os.environ["GROQ_API_KEY"] = "your_groq_api_key"
+      ```
+   
+   2. **Google Generative AI API Key**:
+      ```python
+      os.environ["GOOGLE_API_KEY"] = "your_google_api_key"
+      ```
+   
+   Replace `"your_groq_api_key"` and `"your_google_api_key"` with your actual API keys in every file that includes a reference to the `groq` and `google-generative-ai` modules.
+   
+   Files to update:
+   - `mcq_generator_with_RAG.py`
+   - `mcq_generator.py`
+   - `mcq_evaluator.py`
 
 
 ---
