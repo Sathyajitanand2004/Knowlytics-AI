@@ -18,6 +18,10 @@ Key features of **Knowlytics AI** include:
 Knowlytics AI empowers users to take control of their learning, providing a structured yet flexible approach to self-assessment.
 
 ---
+## Model Effectiveness Highlights: 
+- **RAG Retrieval Confidence**: `92.14%`
+- **Report Generation Confidence**: `90.61%`
+---
 
 ### **Installation and Setup**
 
